@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AboutFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/aboutUsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="CONTACT US"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:src="@drawable/divider"
+                app:layout_constraintEnd_toEndOf="@+id/aboutUsText"
+                app:layout_constraintStart_toStartOf="@+id/aboutUsText"
+                app:layout_constraintTop_toBottomOf="@+id/aboutUsText" />
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/edit_text"
+                android:hint="Name:"
+                android:padding="10dp"
+                android:textColorHint="@color/theme"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text"
+                android:hint="Email:"
+                android:padding="10dp"
+                android:textColorHint="@color/theme"
+                app:layout_constraintTop_toBottomOf="@+id/nameEditText"
+                tools:layout_editor_absoluteX="41dp" />
+
+            <EditText
+                android:id="@+id/phoneEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/edit_text"
+                android:hint="Phone No:"
+                android:padding="10dp"
+                android:textColorHint="@color/theme"
+                app:layout_constraintTop_toBottomOf="@+id/emailEditText"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/messageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/textarea"
+                android:hint="Message:"
+                android:padding="10dp"
+                android:textColorHint="@color/theme"
+                app:layout_constraintTop_toBottomOf="@+id/phoneEditText"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/submit_btn"
+                android:text="send Message"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="@+id/messageEditText"
+                app:layout_constraintTop_toBottomOf="@+id/messageEditText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center_horizontal"
+
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/submitBtn">
+
+                <ImageView
+                    android:id="@+id/instaIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/instagram" />
+
+                <ImageView
+                    android:id="@+id/fbIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/twitIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/twitter" />
+
+                <ImageView
+                    android:id="@+id/linkedInIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/linkedin" />
+
+                <ImageView
+                    android:id="@+id/webIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/web" />
+
+                <ImageView
+                    android:id="@+id/youTubeIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+
+                    android:src="@drawable/youtube" />
+
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

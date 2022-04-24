@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Compliance assessment"
+                    android:textColor="@color/black"
+                android:fontFamily="@font/gfs_didot"
+                android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/compliance"/>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comp_desc"
+                    android:layout_margin="18dp"
+                    android:textDirection="ltr"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/gfs_didot"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                  />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Third-party risk assessment"
+                    android:textColor="@color/black"
+                android:fontFamily="@font/gfs_didot"
+                android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/third_party"/>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/third_party_desc"
+                    android:layout_margin="18dp"
+                    android:textDirection="ltr"
+                    android:fontFamily="@font/gfs_didot"
+                    android:textColor="@color/black"
+                   android:layout_gravity="left"
+                    android:textAlignment="gravity"/>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cyber security strategy"
+                    android:textColor="@color/black"
+                android:fontFamily="@font/gfs_didot"
+                android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/cyber_startegy"/>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cyber_stra_desc"
+                    android:layout_margin="18dp"
+                    android:textDirection="ltr"
+                    android:fontFamily="@font/gfs_didot"
+                    android:textColor="@color/black"
+                   android:layout_gravity="left"
+                    android:textAlignment="gravity"/>
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

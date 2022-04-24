@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "135452125102",
+    "project_id": "inferno-infosec",
+    "storage_bucket": "inferno-infosec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135452125102:android:57a1e5c58b70b3bdd9ca3f",
+        "android_client_info": {
+          "package_name": "com.example.infernoinfosec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135452125102-k00ur7ijpev6u4mavb445vgjenn6cfcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs3X10EWVydijkhtzKQbR6MdtAM2jEhW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135452125102-k00ur7ijpev6u4mavb445vgjenn6cfcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

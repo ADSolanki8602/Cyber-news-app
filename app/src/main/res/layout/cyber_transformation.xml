@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Identity and access managemen"
+                    android:textColor="@color/black"
+                android:fontFamily="@font/gfs_didot"
+                android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/identity"/>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/id_men_desc"
+                    android:layout_margin="18dp"
+                    android:textDirection="ltr"
+                    android:fontFamily="@font/gfs_didot"
+                    android:textColor="@color/black"
+                    android:layout_gravity="left"
+                    android:textAlignment="gravity"/>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Security architecture review"
+                    android:textColor="@color/black"
+                android:fontFamily="@font/gfs_didot"
+                android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/security_arch"/>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sec_rev_desc"
+                    android:layout_margin="18dp"
+                    android:textDirection="ltr"
+                                        android:fontFamily="@font/gfs_didot"
+                    android:textColor="@color/black"
+                    android:layout_gravity="left"
+                    android:textAlignment="gravity"/>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Configuration audit"
+                    android:textColor="@color/black"
+                android:fontFamily="@font/gfs_didot"
+                android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/configuration_audit"/>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/conf_aud_desc"
+                    android:layout_margin="18dp"
+                    android:textDirection="ltr"
+                                        android:fontFamily="@font/gfs_didot"
+                    android:textColor="@color/black"
+                    android:layout_gravity="left"
+                    android:textAlignment="gravity"/>
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
