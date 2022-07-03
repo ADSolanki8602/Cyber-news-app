@@ -12,8 +12,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-This is my internship project in which i had Developed an application which gives the latest news of the
-cyber security world, Includes other features like company services, courses etc.
+This is my internship project in which i developed an application which is provides the most recent information about cyber security, as well as information on the Inferno Infosec firm and all of the company's services.
 
 
 ### Built With
